@@ -3,6 +3,8 @@
  * @param {string} t
  * @return {boolean}
  */
+// Time - O(N)
+// Space - O(N) - 1 hash map
 var isAnagram = function (s, t) {
   if (t.length != s.length) return false;
 
